@@ -1,0 +1,11 @@
+{
+    "name": "UserManagement",
+    "alias": "usermanagement",
+    "description": "Modul UserManagement — CRUD Inertia (useForm), khusus admin.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\UserManagement\\Providers\\UserManagementServiceProvider"
+    ],
+    "files": []
+}

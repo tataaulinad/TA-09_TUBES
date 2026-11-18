@@ -1,0 +1,27 @@
+{
+    "name": "smarttraffic/laporan",
+    "description": "Modul Laporan lalu lintas — CRUD AJAX (fetch + upload berkas), admin dan user.",
+    "authors": [
+        {
+            "name": "Smart Traffic Finder"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Laporan\\": "app/",
+            "Modules\\Laporan\\Database\\Factories\\": "database/factories/",
+            "Modules\\Laporan\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Laporan\\Tests\\": "tests/"
+        }
+    }
+}

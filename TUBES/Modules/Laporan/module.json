@@ -1,0 +1,11 @@
+{
+    "name": "Laporan",
+    "alias": "laporan",
+    "description": "Modul Laporan lalu lintas — CRUD AJAX (fetch + upload berkas), admin dan user.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Laporan\\Providers\\LaporanServiceProvider"
+    ],
+    "files": []
+}

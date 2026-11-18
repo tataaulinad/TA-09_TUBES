@@ -1,0 +1,27 @@
+{
+    "name": "smarttraffic/usermanagement",
+    "description": "Modul UserManagement — CRUD Inertia (useForm), khusus admin.",
+    "authors": [
+        {
+            "name": "Smart Traffic Finder"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\UserManagement\\": "app/",
+            "Modules\\UserManagement\\Database\\Factories\\": "database/factories/",
+            "Modules\\UserManagement\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\UserManagement\\Tests\\": "tests/"
+        }
+    }
+}

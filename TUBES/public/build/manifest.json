@@ -1,0 +1,94 @@
+{
+  "Modules/Laporan/resources/js/pages/index.tsx": {
+    "file": "assets/pages-COx036IQ.js",
+    "name": "pages",
+    "src": "Modules/Laporan/resources/js/pages/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_AppLayout-DsutuETW.js"
+    ],
+    "css": [
+      "assets/app-DxSCcd0H.css"
+    ]
+  },
+  "Modules/UserManagement/resources/js/pages/create.tsx": {
+    "file": "assets/create-872Lr1GG.js",
+    "name": "create",
+    "src": "Modules/UserManagement/resources/js/pages/create.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_AppLayout-DsutuETW.js",
+      "_UserForm-BXu9F7bd.js"
+    ],
+    "css": [
+      "assets/app-DxSCcd0H.css"
+    ]
+  },
+  "Modules/UserManagement/resources/js/pages/edit.tsx": {
+    "file": "assets/edit-DBnKMxi9.js",
+    "name": "edit",
+    "src": "Modules/UserManagement/resources/js/pages/edit.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_AppLayout-DsutuETW.js",
+      "_UserForm-BXu9F7bd.js"
+    ],
+    "css": [
+      "assets/app-DxSCcd0H.css"
+    ]
+  },
+  "Modules/UserManagement/resources/js/pages/index.tsx": {
+    "file": "assets/pages-BCMK4BAI.js",
+    "name": "pages",
+    "src": "Modules/UserManagement/resources/js/pages/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_AppLayout-DsutuETW.js"
+    ],
+    "css": [
+      "assets/app-DxSCcd0H.css"
+    ]
+  },
+  "_AppLayout-DsutuETW.js": {
+    "file": "assets/AppLayout-DsutuETW.js",
+    "name": "AppLayout",
+    "imports": [
+      "resources/js/app.tsx"
+    ]
+  },
+  "_UserForm-BXu9F7bd.js": {
+    "file": "assets/UserForm-BXu9F7bd.js",
+    "name": "UserForm",
+    "imports": [
+      "resources/js/app.tsx"
+    ]
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-DxSCcd0H.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/js/app.tsx": {
+    "file": "assets/app-BKxqOfUc.js",
+    "name": "app",
+    "src": "resources/js/app.tsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "Modules/Laporan/resources/js/pages/index.tsx",
+      "Modules/UserManagement/resources/js/pages/create.tsx",
+      "Modules/UserManagement/resources/js/pages/edit.tsx",
+      "Modules/UserManagement/resources/js/pages/index.tsx"
+    ],
+    "css": [
+      "assets/app-DxSCcd0H.css"
+    ]
+  }
+}
